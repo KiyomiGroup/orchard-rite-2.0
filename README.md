@@ -31,6 +31,20 @@ No dependencies to install — the only external calls are to Google Fonts
 (`fonts.googleapis.com` / `fonts.gstatic.com`) for Space Grotesk and
 Source Serif 4.
 
+## Media
+
+- `assets/img/wind-machine-orchard.jpg` and `assets/img/tree-shaker-orchard.jpg` are
+  your supplied photos, used as the Wind Machines / Tree Shakers page-hero
+  backgrounds and as the poster/background image on the homepage's dark
+  "Wind Machines" panel.
+- `assets/video/wind-machine.mp4` and `assets/video/tree-shaker.mp4` are your
+  supplied homepage videos, used as the two autoplay/muted/looping hero
+  clips on `index.html`.
+- The facility diagram on `about.html` and the inversion-layer / ORCell
+  diagrams are original inline SVG illustrations (no photo was supplied for
+  those, so they're drawn rather than sourced) — no external image files
+  to license or go missing.
+
 ## Notes
 
 - All copy is paraphrased from the real orchard-rite.com content (specs,

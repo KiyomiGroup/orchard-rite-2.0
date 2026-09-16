@@ -39,30 +39,21 @@
         <a class="btn btn-ghost" href="tree-shakers.html">Shake the harvest</a>
       </div>
     </div>
-    <div class="hero-diagram" aria-hidden="true">
-      <svg viewBox="0 0 420 460" xmlns="http://www.w3.org/2000/svg">
-        <line x1="20" y1="430" x2="400" y2="430" stroke="rgba(245,239,224,0.25)" stroke-width="1"/>
-        <line x1="205" y1="430" x2="205" y2="120" stroke="var(--gold)" stroke-width="2"/>
-        <line x1="190" y1="430" x2="205" y2="120" stroke="rgba(245,239,224,0.3)" stroke-width="1"/>
-        <line x1="220" y1="430" x2="205" y2="120" stroke="rgba(245,239,224,0.3)" stroke-width="1"/>
-        <line x1="190" y1="340" x2="220" y2="340" stroke="rgba(245,239,224,0.3)" stroke-width="1"/>
-        <line x1="192" y1="260" x2="218" y2="260" stroke="rgba(245,239,224,0.3)" stroke-width="1"/>
-        <line x1="196" y1="180" x2="214" y2="180" stroke="rgba(245,239,224,0.3)" stroke-width="1"/>
-        <rect x="175" y="428" width="60" height="10" fill="none" stroke="rgba(245,239,224,0.35)"/>
-        <g class="blade-spin" transform="translate(205,120)">
-          <circle r="6" fill="var(--gold)"/>
-          <ellipse cx="0" cy="-70" rx="10" ry="70" fill="var(--rust-2)" opacity="0.85"/>
-          <ellipse cx="0" cy="-70" rx="10" ry="70" fill="var(--rust-2)" opacity="0.85" transform="rotate(180)"/>
-        </g>
-        <path d="M40 90 Q205 30 370 90" stroke="rgba(200,154,68,0.5)" stroke-dasharray="4 6" fill="none"/>
-        <text x="205" y="24" text-anchor="middle" fill="rgba(245,239,224,0.45)" font-family="Space Grotesk" font-size="11">warm inversion layer</text>
-        <g opacity="0.5">
-          <circle cx="60" cy="418" r="10" fill="none" stroke="rgba(245,239,224,0.4)"/>
-          <circle cx="95" cy="422" r="8" fill="none" stroke="rgba(245,239,224,0.4)"/>
-          <circle cx="320" cy="420" r="9" fill="none" stroke="rgba(245,239,224,0.4)"/>
-          <circle cx="355" cy="424" r="7" fill="none" stroke="rgba(245,239,224,0.4)"/>
-        </g>
-      </svg>
+    <div class="hero-media" aria-hidden="false">
+      <div class="video-card main">
+        <a class="card-link" href="wind-machines.html" aria-label="Wind Machines &amp; frost protection"></a>
+        <video autoplay muted loop playsinline poster="assets/img/wind-machine-orchard.jpg">
+          <source src="assets/video/wind-machine.mp4" type="video/mp4">
+        </video>
+        <div class="video-label"><span class="kicker">Nightfall</span>Wind Machines &amp; frost protection</div>
+      </div>
+      <div class="video-card sub">
+        <a class="card-link" href="tree-shakers.html" aria-label="Tree Shakers &amp; harvest"></a>
+        <video autoplay muted loop playsinline poster="assets/img/tree-shaker-orchard.jpg">
+          <source src="assets/video/tree-shaker.mp4" type="video/mp4">
+        </video>
+        <div class="video-label"><span class="kicker">Daylight</span>Tree Shakers &amp; harvest</div>
+      </div>
     </div>
   </div>
   <div class="hero-strip">
@@ -97,7 +88,7 @@
         </ul>
         <a class="more" href="tree-shakers.html" style="color:var(--rust);">See tree shaker models</a>
       </div>
-      <div class="split-panel dark">
+      <div class="split-panel dark has-photo" style="background-image:url('assets/img/wind-machine-orchard.jpg');">
         <span class="when">Nightfall &middot; Frost protection</span>
         <h3>Wind Machines</h3>
         <p style="color:rgba(245,239,224,0.75); font-size:15px;">Since 1972, our fans have pulled warm air out of the inversion layer and pushed it down into the crop zone, holding off the frost that ends a season in a single night.</p>
